@@ -1,5 +1,6 @@
 {
   "itemGroup.actuallyelectrical": "Actually Electrical",
   "block.actuallyelectrical.example_block": "Example Block",
-  "item.actuallyelectrical.example_item": "Example Item"
+  "item.actuallyelectrical.example_item": "Example Item",
+  "item.actuallyelectrical.item_debugger_tool": "Item Debugger Tool"
 }
