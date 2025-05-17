@@ -20,10 +20,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         //</editor-fold>
 
         //<editor-fold desc="BlockItems">
-        basicItemBlockbenchModel(ActuallyElectricalItems
-                .CIRCUIT_DESIGN_BENCH_ITEM, "circuit_design_bench", "block/circuit_design_bench");
-
-        simpleBlockItem(ActuallyElectricalItems.MACHINE_CHASSIS_ITEM.get().getBlock());
+//        basicItemBlockbenchModel(ActuallyElectricalItems
+//                .CIRCUIT_DESIGN_BENCH_ITEM, "circuit_design_bench", "block/circuit_design_bench");
         //</editor-fold>
     }
 

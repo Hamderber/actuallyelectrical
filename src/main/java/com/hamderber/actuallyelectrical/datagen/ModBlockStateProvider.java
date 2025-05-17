@@ -17,7 +17,6 @@ public class ModBlockStateProvider  extends BlockStateProvider {
         blockWithItem(ActuallyElectricalBlocks.MACHINE_CHASSIS);
 
         blockWithItemBlockbenchModel(ActuallyElectricalBlocks.CIRCUIT_DESIGN_BENCH,
-                "circuit_design_bench",
                 "block/circuit_design_bench");
     }
 
@@ -25,9 +24,7 @@ public class ModBlockStateProvider  extends BlockStateProvider {
         simpleBlockWithItem(deferredBlock.get(), cubeAll(deferredBlock.get()));
     }
 
-    private void blockWithItemBlockbenchModel(DeferredBlock<?> deferredBlock, String name, String path){
-        simpleBlockWithItem(deferredBlock.get(), models().withExistingParent(
-                name,
-                modLoc(path)));
+    private void blockWithItemBlockbenchModel(DeferredBlock<?> deferredBlock, String path) {
+        simpleBlockWithItem(deferredBlock.get(), models().getExistingFile(modLoc(path)));
     }
 }
