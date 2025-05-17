@@ -1,8 +1,6 @@
 package com.hamderber.actuallyelectrical.common.registries;
 
 import com.hamderber.actuallyelectrical.common.registration.BlockDeferredRegister;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;

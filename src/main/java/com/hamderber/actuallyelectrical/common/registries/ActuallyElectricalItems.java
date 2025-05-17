@@ -2,7 +2,6 @@ package com.hamderber.actuallyelectrical.common.registries;
 
 import com.hamderber.actuallyelectrical.common.item.ItemDebuggerTool;
 import com.hamderber.actuallyelectrical.common.registration.ItemDeferredRegister;
-import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.registries.DeferredItem;
