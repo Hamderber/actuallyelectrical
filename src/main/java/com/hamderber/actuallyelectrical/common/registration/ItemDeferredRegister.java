@@ -2,13 +2,7 @@ package com.hamderber.actuallyelectrical.common.registration;
 
 import com.hamderber.actuallyelectrical.ActuallyElectrical;
 import com.hamderber.actuallyelectrical.common.Logger;
-import net.minecraft.core.Registry;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Item.Properties;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.jetbrains.annotations.NotNull;
 

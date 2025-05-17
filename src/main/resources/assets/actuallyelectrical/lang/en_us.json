@@ -1,9 +1,8 @@
 {
   "itemGroup.actuallyelectrical": "Actually Electrical",
 
-  "item.actuallyelectrical.example_item": "Example Item",
   "item.actuallyelectrical.item_debugger_tool": "Item Debugger Tool",
 
-  "block.actuallyelectrical.example_block": "Example Block",
+  "block.actuallyelectrical.circuit_design_bench": "Circuit Design Bench",
   "block.actuallyelectrical.machine_chassis": "Machine Chassis"
 }

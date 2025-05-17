@@ -12,7 +12,7 @@ public class ActuallyElectricalCreativeTabs {
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CREATIVE_TAB =
             CREATIVE_MODE_TABS.register(ActuallyElectrical.MODID, () -> CreativeModeTab.builder()
                 .title(Component.translatable("itemGroup.actuallyelectrical"))
-                .icon(() -> ActuallyElectricalItems.EXAMPLE_ITEM
+                .icon(() -> ActuallyElectricalItems.CIRCUIT_DESIGN_BENCH_ITEM
                     .get()
                     .getDefaultInstance())
                 .displayItems((parameters, output) -> {
