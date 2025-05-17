@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " f ",
+    " i ",
+    "   "
+  ],
+  "key": {
+    "f": {
+      "item": "minecraft:flint"
+    },
+    "i": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "actuallyelectrical:machine_chassis"
+  }
+}
