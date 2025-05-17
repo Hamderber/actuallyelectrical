@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "actuallyelectrical:item/item_debugger_tool"
+  }
+}

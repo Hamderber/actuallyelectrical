@@ -14,11 +14,20 @@ public class ModBlockStateProvider  extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(ActuallyElectricalBlocks.CIRCUIT_DESIGN_BENCH);
         blockWithItem(ActuallyElectricalBlocks.MACHINE_CHASSIS);
+
+        blockWithItemBlockbenchModel(ActuallyElectricalBlocks.CIRCUIT_DESIGN_BENCH,
+                "circuit_design_bench",
+                "block/circuit_design_bench");
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock){
         simpleBlockWithItem(deferredBlock.get(), cubeAll(deferredBlock.get()));
+    }
+
+    private void blockWithItemBlockbenchModel(DeferredBlock<?> deferredBlock, String name, String path){
+        simpleBlockWithItem(deferredBlock.get(), models().withExistingParent(
+                name,
+                modLoc(path)));
     }
 }
