@@ -2,6 +2,11 @@
   "itemGroup.actuallyelectrical": "Actually Electrical",
 
   "item.actuallyelectrical.item_debugger_tool": "Item Debugger Tool",
+  "item.actuallyelectrical.flame_resistant_cotton": "Flame-resistant Cotton",
+  "item.actuallyelectrical.arc_flash_helmet": "Arc Flash Helmet",
+  "item.actuallyelectrical.arc_flash_chestplate": "Arc Flash Chestplate",
+  "item.actuallyelectrical.arc_flash_leggings": "Arc Flash Leggings",
+  "item.actuallyelectrical.arc_flash_boots": "Arc Flash Boots",
 
   "block.actuallyelectrical.circuit_design_bench": "Circuit Design Bench",
   "block.actuallyelectrical.machine_chassis": "Machine Chassis"

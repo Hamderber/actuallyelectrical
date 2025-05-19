@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "tag": "c:dyes/blue"
+    },
+    "f": {
+      "item": "actuallyelectrical:flame_resistant_cotton"
+    }
+  },
+  "pattern": [
+    "fbf",
+    "fff",
+    "fff"
+  ],
+  "result": {
+    "count": 1,
+    "id": "actuallyelectrical:arc_flash_chestplate"
+  }
+}

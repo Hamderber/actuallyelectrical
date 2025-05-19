@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flame_resistant_cotton": {
+      "conditions": {
+        "items": [
+          {
+            "items": "actuallyelectrical:flame_resistant_cotton"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "actuallyelectrical:arc_flash_chestplate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_flame_resistant_cotton"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "actuallyelectrical:arc_flash_chestplate"
+    ]
+  }
+}

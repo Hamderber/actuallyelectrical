@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "tag": "c:dyes/blue"
+    },
+    "c": {
+      "item": "minecraft:crafting_table"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "r": {
+      "tag": "c:dyes/red"
+    },
+    "y": {
+      "tag": "c:dyes/yellow"
+    }
+  },
+  "pattern": [
+    "rby",
+    "ppp",
+    " c "
+  ],
+  "result": {
+    "count": 1,
+    "id": "actuallyelectrical:circuit_design_bench"
+  }
+}

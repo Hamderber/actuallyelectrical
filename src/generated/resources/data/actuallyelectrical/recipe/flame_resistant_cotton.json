@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": {
+      "item": "minecraft:magma_cream"
+    },
+    "s": {
+      "tag": "c:strings"
+    },
+    "w": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "sws",
+    "wmw",
+    "sws"
+  ],
+  "result": {
+    "count": 24,
+    "id": "actuallyelectrical:flame_resistant_cotton"
+  }
+}

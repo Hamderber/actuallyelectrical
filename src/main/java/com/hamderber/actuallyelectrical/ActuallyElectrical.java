@@ -1,5 +1,6 @@
 package com.hamderber.actuallyelectrical;
 
+import com.hamderber.actuallyelectrical.common.registration.DataComponentTypes;
 import com.hamderber.actuallyelectrical.common.registries.ActuallyElectricalBlocks;
 import com.hamderber.actuallyelectrical.common.registries.ActuallyElectricalCreativeTabs;
 import com.hamderber.actuallyelectrical.common.registries.ActuallyElectricalItems;
@@ -24,5 +25,7 @@ public class ActuallyElectrical
         ActuallyElectricalItems.ITEMS.register(modEventBus);
         ActuallyElectricalBlocks.BLOCKS.register(modEventBus);
         ActuallyElectricalCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+
+        DataComponentTypes.register(modEventBus);
     }
 }
