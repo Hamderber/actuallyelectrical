@@ -17,11 +17,7 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
-import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
-
-import java.util.Arrays;
-import java.util.stream.Collectors;
 
 @Mod(ActuallyElectrical.MODID)
 public class ActuallyElectrical
@@ -46,6 +42,7 @@ public class ActuallyElectrical
     public static class ClientModEvents{
         @SubscribeEvent
         public static void registerItemColorHandlers(RegisterColorHandlersEvent.Item event) {
+            // https://docs.neoforged.net/docs/1.21.1/resources/client/models/
             // Parameters are the item stack and the tint index.
             event.register((stack, tintIndex) -> {
                         Double resistance = stack.get(DataComponentTypes.RESISTANCE_VALUE);
@@ -57,14 +54,15 @@ public class ActuallyElectrical
                             return -1;
                         }
 
-                        Logger.LOGGER.debug("Tint index: {}, Resistance: {}, BandColors: [{}]",
-                                tintIndex, resistance, Arrays.stream(bandColors)
-                                        .mapToObj(c -> String.format("#%06X", c))
-                                        .collect(Collectors.joining(", "))
-                        );
+//                        Logger.LOGGER.debug("Tint index: {}, Resistance: {}, BandColors: [{}]",
+//                                tintIndex, resistance, Arrays.stream(bandColors)
+//                                        .mapToObj(c -> String.format("#%06X", c))
+//                                        .collect(Collectors.joining(", "))
+//                        );
 
-                        // tintIndex corresponds to the model's layer.
-                        return bandColors[tintIndex - 1]; // offset by 1 because bandColors[0] = layer1
+                        // tintIndex corresponds to the model's layer
+                        // offset by 1 because bandColors[0] = layer1
+                        return bandColors[tintIndex - 1];
                     },
                     // A varargs of items to apply the tinting to
                     ActuallyElectricalItems.RESISTOR_THROUGH_HOLE.value());
