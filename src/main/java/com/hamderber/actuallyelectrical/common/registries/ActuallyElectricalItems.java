@@ -1,6 +1,8 @@
 package com.hamderber.actuallyelectrical.common.registries;
 
 import com.hamderber.actuallyelectrical.common.item.ItemDebuggerTool;
+import com.hamderber.actuallyelectrical.common.item.ResistorThroughHole;
+import com.hamderber.actuallyelectrical.common.registration.DataComponentTypes;
 import com.hamderber.actuallyelectrical.common.registration.ItemDeferredRegister;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.BlockItem;
@@ -16,6 +18,11 @@ public class ActuallyElectricalItems {
     public static final DeferredItem<Item> ITEM_DEBUGGER_TOOL =
             ITEMS.registerItem("item_debugger_tool",
                     ItemDebuggerTool::new,
+                    new Item.Properties());
+
+    public static final DeferredItem<ResistorThroughHole> RESISTOR_THROUGH_HOLE =
+            ITEMS.registerItem("resistor_through_hole",
+                    ResistorThroughHole::new,
                     new Item.Properties());
 
     public static final DeferredItem<Item> FLAME_RESISTANT_COTTON =

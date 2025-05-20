@@ -89,6 +89,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                 .TriggerInstance.hasItems(ActuallyElectricalItems.FLAME_RESISTANT_COTTON.get()))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ActuallyElectricalItems.RESISTOR_THROUGH_HOLE.get())
+                .pattern(" p ")
+                .pattern("ncn")
+                .pattern(" p ")
+                .define('p', Items.PAPER)
+                .define('n', Items.IRON_NUGGET)
+                .define('c', Items.COAL)
+                .unlockedBy("has_air", InventoryChangeTrigger.TriggerInstance.hasItems(Items.AIR))
+                .save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ActuallyElectricalItems.ARC_FLASH_LEGGINGS.get())
                 .pattern("fff")
                 .pattern("fbf")

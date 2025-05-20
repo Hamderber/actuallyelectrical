@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "actuallyelectrical:item/resistor_through_hole_base",
+    "layer1": "actuallyelectrical:item/resistor_through_hole_band_1",
+    "layer2": "actuallyelectrical:item/resistor_through_hole_band_2",
+    "layer3": "actuallyelectrical:item/resistor_through_hole_band_3",
+    "layer4": "actuallyelectrical:item/resistor_through_hole_band_4"
+  }
+}

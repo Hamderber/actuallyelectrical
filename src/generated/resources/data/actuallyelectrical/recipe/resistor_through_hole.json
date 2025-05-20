@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:coal"
+    },
+    "n": {
+      "item": "minecraft:iron_nugget"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    " p ",
+    "ncn",
+    " p "
+  ],
+  "result": {
+    "count": 1,
+    "id": "actuallyelectrical:resistor_through_hole"
+  }
+}
