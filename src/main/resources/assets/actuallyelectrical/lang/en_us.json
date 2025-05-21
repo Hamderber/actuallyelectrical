@@ -10,6 +10,7 @@
   "item.actuallyelectrical.arc_flash_boots": "Arc Flash Boots",
 
   "block.actuallyelectrical.circuit_design_bench": "Circuit Design Bench",
+  "block.actuallyelectrical.electrical_component_workbench": "Electrical Component Workbench",
   "block.actuallyelectrical.machine_chassis": "Machine Chassis",
 
   "tooltip.actuallyelectrical.resistor_through_hole.resistance" : "Resistance",

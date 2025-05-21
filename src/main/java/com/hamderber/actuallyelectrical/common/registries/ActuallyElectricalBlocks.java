@@ -20,6 +20,14 @@ public class ActuallyElectricalBlocks {
                             .sound(SoundType.WOOD)
                             .ignitedByLava());
 
+    public static final DeferredBlock<Block> ELECTRICAL_COMPONENT_WORKBENCH =
+            BLOCKS.registerSimpleBlock("electrical_component_workbench",
+                    BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.WOOD)
+                            .strength(2.5F)
+                            .sound(SoundType.WOOD)
+                            .ignitedByLava());
+
     public static final DeferredBlock<Block> MACHINE_CHASSIS =
             BLOCKS.registerSimpleBlock("machine_chassis",
                     BlockBehaviour.Properties.of()

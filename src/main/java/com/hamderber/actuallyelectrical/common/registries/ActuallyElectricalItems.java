@@ -2,7 +2,6 @@ package com.hamderber.actuallyelectrical.common.registries;
 
 import com.hamderber.actuallyelectrical.common.item.ItemDebuggerTool;
 import com.hamderber.actuallyelectrical.common.item.ResistorThroughHole;
-import com.hamderber.actuallyelectrical.common.registration.DataComponentTypes;
 import com.hamderber.actuallyelectrical.common.registration.ItemDeferredRegister;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.BlockItem;
@@ -63,6 +62,10 @@ public class ActuallyElectricalItems {
     public static final DeferredItem<BlockItem> CIRCUIT_DESIGN_BENCH_ITEM =
             ITEMS.registerSimpleBlockItem("circuit_design_bench",
                     ActuallyElectricalBlocks.CIRCUIT_DESIGN_BENCH);
+
+    public static final DeferredItem<BlockItem> ELECTRICAL_COMPONENT_WORKBENCH_ITEM =
+            ITEMS.registerSimpleBlockItem("electrical_component_workbench",
+                    ActuallyElectricalBlocks.ELECTRICAL_COMPONENT_WORKBENCH);
 
     public static final DeferredItem<BlockItem> MACHINE_CHASSIS_ITEM =
             ITEMS.registerSimpleBlockItem("machine_chassis",

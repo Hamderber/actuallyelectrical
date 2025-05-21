@@ -20,12 +20,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.@NotNull Provider provider) {
-        tag(BlockTags.MINEABLE_WITH_AXE)
-                .add(ActuallyElectricalBlocks.CIRCUIT_DESIGN_BENCH.get());
+        tag(BlockTags.MINEABLE_WITH_AXE).add(
+                ActuallyElectricalBlocks.CIRCUIT_DESIGN_BENCH.get(),
+                ActuallyElectricalBlocks.ELECTRICAL_COMPONENT_WORKBENCH.get());
 
-        tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ActuallyElectricalBlocks.MACHINE_CHASSIS.get());
-        tag(BlockTags.NEEDS_STONE_TOOL)
-                .add(ActuallyElectricalBlocks.MACHINE_CHASSIS.get());
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(
+                ActuallyElectricalBlocks.MACHINE_CHASSIS.get());
+
+        tag(BlockTags.NEEDS_STONE_TOOL).add(
+                ActuallyElectricalBlocks.MACHINE_CHASSIS.get());
     }
 }

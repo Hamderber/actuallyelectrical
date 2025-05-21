@@ -18,6 +18,9 @@ public class ModBlockStateProvider  extends BlockStateProvider {
 
         blockWithItemBlockbenchModel(ActuallyElectricalBlocks.CIRCUIT_DESIGN_BENCH,
                 "block/circuit_design_bench");
+
+        blockWithItemBlockbenchModel(ActuallyElectricalBlocks.ELECTRICAL_COMPONENT_WORKBENCH,
+                "block/electrical_component_workbench");
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock){
