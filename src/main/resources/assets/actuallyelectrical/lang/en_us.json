@@ -12,6 +12,20 @@
   "block.actuallyelectrical.circuit_design_bench": "Circuit Design Bench",
   "block.actuallyelectrical.machine_chassis": "Machine Chassis",
 
-  "tooltip.actuallyelectrical.resistor_through_hole.tooltip" : "Resistance",
-  "tooltip.actuallyelectrical.resistor_through_hole.tooltip_invalid" : "INVALID"
+  "tooltip.actuallyelectrical.resistor_through_hole.resistance" : "Resistance",
+  "tooltip.actuallyelectrical.resistor_through_hole.invalid" : "INVALID",
+  "tooltip.actuallyelectrical.resistor_through_hole.color": "Color",
+
+  "color.actuallyelectrical.resistor.black": "Black",
+  "color.actuallyelectrical.resistor.brown": "Brown",
+  "color.actuallyelectrical.resistor.red": "Red",
+  "color.actuallyelectrical.resistor.orange": "Orange",
+  "color.actuallyelectrical.resistor.yellow": "Yellow",
+  "color.actuallyelectrical.resistor.green": "Green",
+  "color.actuallyelectrical.resistor.blue": "Blue",
+  "color.actuallyelectrical.resistor.violet": "Violet",
+  "color.actuallyelectrical.resistor.gray": "Gray",
+  "color.actuallyelectrical.resistor.white": "White",
+  "color.actuallyelectrical.resistor.gold": "Gold",
+  "color.actuallyelectrical.resistor.silver": "Silver"
 }

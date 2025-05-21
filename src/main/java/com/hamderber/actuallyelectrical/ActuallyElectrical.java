@@ -1,15 +1,11 @@
 package com.hamderber.actuallyelectrical;
 
-import com.hamderber.actuallyelectrical.common.Logger;
 import com.hamderber.actuallyelectrical.common.registration.DataComponentTypes;
 import com.hamderber.actuallyelectrical.common.registries.ActuallyElectricalBlocks;
 import com.hamderber.actuallyelectrical.common.registries.ActuallyElectricalCreativeTabs;
 import com.hamderber.actuallyelectrical.common.registries.ActuallyElectricalItems;
 
-import com.hamderber.actuallyelectrical.util.ResistorColorUtils;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.item.ItemProperties;
-import net.minecraft.resources.ResourceLocation;
+import com.hamderber.actuallyelectrical.records.ResistanceRecord;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -48,7 +44,8 @@ public class ActuallyElectrical
                         Double resistance = stack.get(DataComponentTypes.RESISTANCE_VALUE);
                         if (resistance == null) return -1;
 
-                        int[] bandColors = ResistorColorUtils.getColorBands(resistance);
+                        ResistanceRecord resistanceRecord = ResistanceRecord.create(resistance);
+                        int[] bandColors = resistanceRecord.getColorBands();
 
                         if (tintIndex <= 0 || tintIndex > bandColors.length) {
                             return -1;
